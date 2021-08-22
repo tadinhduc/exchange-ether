@@ -3,7 +3,7 @@ pragma solidity ^0.7.4;
 
 contract ExchangeEther {
     function validate(uint256 amount) public {
-        require(amount > 0, "You need to sell at least some tokens");
+        require(amount >= 0, "You need to sell at least some tokens");
     }
 
     function sendViaTransfer(address payable _to, uint256 amount)

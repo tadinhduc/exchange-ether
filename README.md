@@ -1,12 +1,11 @@
-# exchange-ether
+# Simple Dapp
 
-exchange ethereum
-Run:
+This is a simple test dapp for use in MetaMask e2e tests and manual QA.
+
+## setup & run
+
+```sh
 npm install
-node main.js
 
-## What can I found here?
-
-This repo show how to submit a simple transaction on a fake Ethereum blockchain (ganache).
-
-It also provide an example of the compilation and deployement of a contract on that blockchain.
+npm run start
+```
